@@ -9,8 +9,8 @@ trigger:
 pool: my-personal-computer
 strategy:
   matrix:
-    Python3115:
-      python.version: '3.11.5'
+    Python38:
+      python.version: '3.8'
 
 steps:
 - task: UsePythonVersion@0
