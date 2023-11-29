@@ -1,0 +1,7 @@
+<h3>Student Database</h3>
+<a href="/add">Add student</a>
+
+<h3>Students</h3>
+{% for student in students%}
+<p>Name:{{student.name}}<br>Email:{{student.email}}<br></p>
+{% endfor %}
